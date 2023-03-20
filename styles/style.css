@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000618;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #010735;
+  position: sticky;
+  top: 0;
+}
+
+#nav-logo {
+  width: 150px;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.nav-item {
+  color: #aaaaaa;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  border: 1px solid gray;
+  padding: 5px 10px;
+}
+
+#banner-section {
+  display: flex;
+  align-items: center;
+  padding: 50px 15px 50px 15px;
+  color: white;
+}
+
+.social-icon {
+  width: 30px;
+}
+
+#prof {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+#name {
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+#social-icons {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#banner-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #494a4b;
+}
+
+
+.others-sec {
+    border: 1px solid white;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
